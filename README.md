@@ -31,9 +31,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='images/Flixster.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
+<img src='video/Flixter.gif' title='Video Walkthrough' width='600' alt='Video Walkthrough' />
 
-GIF created with [Kap](https://getkap.co/).
+GIF created with [Online Converter](https://www.onlineconverter.com/video-to-gif).
 
 ## Screenshot Walkthrough
 
