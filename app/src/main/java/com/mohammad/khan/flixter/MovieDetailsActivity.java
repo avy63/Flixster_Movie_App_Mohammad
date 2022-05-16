@@ -20,6 +20,7 @@ import org.json.JSONObject;
 import org.json.JSONStringer;
 import org.parceler.Parcels;
 
+import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 import okhttp3.Headers;
 
 public class MovieDetailsActivity extends AppCompatActivity {
@@ -58,7 +59,7 @@ public class MovieDetailsActivity extends AppCompatActivity {
         Glide.with(this)
                 .load(imageUrl)
                 .placeholder(placeholder)
-
+                .transform(new RoundedCornersTransformation(10, 0))
                 .into(binding.ivVideo);
 
         String videoURL = "https://api.themoviedb.org/3/movie/" + movie.getId() + "/videos?api_key=" + getString(R.string.youtube_api_key);
